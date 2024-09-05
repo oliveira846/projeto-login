@@ -1,5 +1,7 @@
 @charset "UTF-8";
 
+
+
 :root{
     --color1: #784644;
     --color2: #B89897;
@@ -53,4 +55,12 @@ main{
 #formulario{
     padding: 10px;
     display: block;
+}
+
+#formulario > h1{
+    text-align: center;
+    margin-bottom: 10px;
+}
+#formulario > p{
+    font-size: 0.8em;
 }
